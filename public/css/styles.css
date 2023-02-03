@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body{
+    background-color: #272727;
+    margin: 1rem;
+}
+
+p{
+    color: aliceblue;
+}
+
+.card{
+    background: #363636;
+    width: 30%;
+    border-radius: 5% !important;
+    padding: 1rem !important;
+    margin: 1rem !important;
+}
+
+.card-title{
+    color: rgb(212, 90, 90);
+    font-weight: bolder;
+}
+
+input{
+    background-color:  #3b3b3b !important;
+    border: none !important;
+    color: aliceblue !important;
+    height: 3rem !important;
+}
+
+.text-area{
+    background-color: #272727 !important;
+}
+
+.messageLog{
+    margin-bottom: 4rem;
+    margin-top: 3.5rem;
+}
+
+.chat-header{
+    background-color: #3b3b3b !important;
+    padding: 1rem;
+}
+
+input::placeholder { color: rgb(109, 109, 109) !important; }
+
+.form-control:focus{box-shadow: none !important;}
+@media (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }
+  }
